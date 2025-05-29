@@ -83,6 +83,6 @@ EMAIL_TO=recipient_email@gmail.com
 ### 4. Run the Script
 
 ```sh
-python match_scraper.py
+python yallakora_scraper.py
 ```
 
