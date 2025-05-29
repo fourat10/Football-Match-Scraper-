@@ -46,16 +46,21 @@ Time: 21:00
 
 football-scraper/
 │\n
-├── match_scraper.py # Main script\n
-├── .env # Environment variables (not committed)\n
-├── .gitignore # Ignores .env file\n
-└── README.md # Project documentation\n
+├── match_scraper.py # Main script<br>
+├── .env # Environment variables (not committed)<br>
+├── .gitignore # Ignores .env file<br>
+└── README.md # Project documentation<br>
 
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/football-scraper.git
+cd football-scraper
+
 
 ```bash
 git clone https://github.com/yourusername/football-scraper.git
