@@ -29,3 +29,35 @@ A Python script that scrapes daily football matches from [YallaKora](https://www
 
 ## 🖼️ Example Output (Email Body)
 
+Subject: 29/05/2025 Match Results
+
+Championship: Premier League
+Liverpool 2 - 1 Chelsea
+Time: 18:00
+
+Championship: La Liga
+Barcelona 3 - 0 Valencia
+Time: 21:00
+
+
+---
+
+## 📦 Project Structure
+
+football-scraper/
+│
+├── match_scraper.py # Main script
+├── .env # Environment variables (not committed)
+├── .gitignore # Ignores .env file
+└── README.md # Project documentation
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/football-scraper.git
+cd football-scraper
+
