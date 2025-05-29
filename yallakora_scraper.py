@@ -6,7 +6,6 @@ from datetime import date
 # Set up the SMTP connection
 connection = smtplib.SMTP("smtp.gmail.com", 587)
 connection.starttls()
-connection.login(user="fouratmarouen4@gmail.com", password="eboo mwta anbw mnsx")
 
 
 # Input the date for which match data is required
