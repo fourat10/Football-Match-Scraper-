@@ -57,12 +57,32 @@ football-scraper/
 
 ### 1. Clone the Repository
 
-```bash
+```sh
 git clone https://github.com/yourusername/football-scraper.git
 cd football-scraper
+```
+### 2. Install Dependencies 
+```sh
+pip install -r requirements.txt
+```
 
+If requirements.txt is missing, you can manually install the dependencies:
+```sh
+pip install requests beautifulsoup4 lxml python-dotenv
+```
 
-```bash
-git clone https://github.com/yourusername/football-scraper.git
-cd football-scraper
+### 3. Set Up Environment Variables
+Create a .env file in the root directory with the following content:
+```sh
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+EMAIL_TO=recipient_email@gmail.com
+```
+🔐 Tip: For Gmail, use an App Password if you have 2-Step Verification enabled.
+
+### 4. Run the Script
+
+```sh
+python match_scraper.py
+```
 
