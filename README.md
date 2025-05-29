@@ -45,11 +45,11 @@ Time: 21:00
 ## 📦 Project Structure
 
 football-scraper/
-│
-├── match_scraper.py # Main script
-├── .env # Environment variables (not committed)
-├── .gitignore # Ignores .env file
-└── README.md # Project documentation
+│\n
+├── match_scraper.py # Main script\n
+├── .env # Environment variables (not committed)\n
+├── .gitignore # Ignores .env file\n
+└── README.md # Project documentation\n
 
 ---
 
